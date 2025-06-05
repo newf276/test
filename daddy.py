@@ -4,9 +4,9 @@ import urllib.parse
 import os
 
 ALLOWED_COUNTRIES = {
-    'UNITED STATES': 'DaddyLive USA',
-    'UNITED KINGDOM': 'DaddyLive UK',
-    'CANADA': 'DaddyLive CA'
+    'UNITED STATES': 'DaddyLive',
+    'UNITED KINGDOM': 'DaddyLive',
+    'CANADA': 'DaddyLive'
 }
 
 SOURCE_URL = 'https://drewski2423-dproxy.hf.space/playlist/channels'
