@@ -17,7 +17,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main || echo "No remote changes"
+          git pull origin master || echo "No remote changes"
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -45,5 +45,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto update DaddyLive playlist"
-            git push origin main
+            git push origin master
           fi
