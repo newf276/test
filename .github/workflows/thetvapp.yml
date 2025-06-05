@@ -44,8 +44,8 @@ jobs:
           
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Drewski2423/DrewLive.git
           
-          git pull --rebase --no-edit origin main
+          git pull --rebase --no-edit origin master
           
-          git push origin main
+          git push origin master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
