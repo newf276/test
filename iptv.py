@@ -4,9 +4,9 @@ import urllib.parse
 from collections import defaultdict
 
 playlist_urls = [
-    "https://raw.githubusercontent.com/newf276/test/refs/heads/main/DaddyLive.m3u8",
-    "https://raw.githubusercontent.com/newf276/test/refs/heads/main/DaddyLiveEvents.m3u8",
-    "https://raw.githubusercontent.com/newf276/test/refs/heads/main/UDPTV.m3u",
+    "https://raw.githubusercontent.com/newf276/test/refs/heads/master/DaddyLive.m3u8",
+    "https://raw.githubusercontent.com/newf276/test/refs/heads/master/DaddyLiveEvents.m3u8",
+    "https://raw.githubusercontent.com/newf276/test/refs/heads/master/UDPTV.m3u",
 ]
 
 EPG_URL = "https://github.com/newf276/junk/raw/refs/heads/master/programme/home/master.xml.gz"
