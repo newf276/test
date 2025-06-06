@@ -2,10 +2,10 @@ import requests
 from collections import OrderedDict
 import re
 
-TEMPLATE_URL = "https://raw.githubusercontent.com/Drewski2423/DrewLive/refs/heads/main/UDPTV.m3u"
-UPSTREAM_URL = "https://tinyurl.com/drewliveudptv"
-EPG_URL = "https://tinyurl.com/merged2423-epg"
-OUTPUT_FILE = "UDPTV.m3u"
+TEMPLATE_URL = "https://raw.githubusercontent.com/newf276/test/refs/heads/master/udptv.m3u"
+UPSTREAM_URL = "https://cdn.djdoolky76.net/udptv.m3u8"
+EPG_URL = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/udptv-epg.xml"
+OUTPUT_FILE = "udptv.m3u"
 
 REMOVE_PHRASE = (
     "### IF YOU ARE A RESELLER OR LEECHER, PLEASE CONSIDER SUPPORTING OUR UDPTV SERVER "
@@ -13,7 +13,7 @@ REMOVE_PHRASE = (
     "AN UPDATED PLAYLIST: https://discord.gg/civ3"
 )
 
-FORCED_GROUP_TITLE = "UDPTV Live Streams"  # your permanent group name here
+FORCED_GROUP_TITLE = "UdpTV"  # your permanent group name here
 
 DUCKDNS_HOST = "yourname.duckdns.org"  # <-- Replace this with your actual DuckDNS domain
 CUSTOM_LOGO_DOMAIN = "logo.udptv.live"  # example domain to protect your logos from being changed
