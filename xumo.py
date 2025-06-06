@@ -46,7 +46,7 @@ REQUEST_TIMEOUT = 45
 
 # !!! GitHub Repo Info !!!
 GITHUB_USER = "newf276"
-GITHUB_REPO = "xumo-playlist-generator"
+GITHUB_REPO = "test"
 GITHUB_BRANCH = "master"
 EPG_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/{GITHUB_BRANCH}/{OUTPUT_DIR}/{EPG_FILENAME}"
 
