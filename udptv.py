@@ -2,10 +2,10 @@ import requests
 from collections import OrderedDict
 import re
 
-TEMPLATE_URL = "https://raw.githubusercontent.com/newf276/test/refs/heads/master/udptv.m3u"
+TEMPLATE_URL = "https://raw.githubusercontent.com/newf276/test/refs/heads/master/udptv.m3u8"
 UPSTREAM_URL = "https://cdn.djdoolky76.net/udptv.m3u8"
 EPG_URL = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/udptv-epg.xml"
-OUTPUT_FILE = "udptv.m3u"
+OUTPUT_FILE = "udptv.m3u8"
 
 REMOVE_PHRASE = (
     "### IF YOU ARE A RESELLER OR LEECHER, PLEASE CONSIDER SUPPORTING OUR UDPTV SERVER "

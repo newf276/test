@@ -29,7 +29,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           if [[ $(git status --porcelain) ]]; then
-            git add udptv.m3u
+            git add udptv.m3u8
             git commit -m "Automated playlist update"
             git push
           else
