@@ -5,7 +5,7 @@ name: Generate Xumo Playlist and EPG
 on:
   workflow_dispatch: # Allows manual triggering from the Actions tab in GitHub
   schedule:
-    # Runs around 4 AM UTC daily (adjust cron schedule as needed)
+    # Runs every 2hrs (adjust cron schedule as needed)
     # See: https://crontab.guru/
     - cron: '0 2 * * *'
 

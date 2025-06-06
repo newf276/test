@@ -5,7 +5,7 @@ on:
     paths:
       - kodi.py
   schedule:
-    - cron: '*/15 * * * *'  # Every 15 minutes
+    - cron: '0 2 * * *'  # every 2hrs
   workflow_dispatch:
 
 jobs:

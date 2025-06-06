@@ -8,8 +8,7 @@ on:
       - 'MergedPlaylist.m3u8'
       - 'iptv.py'
   schedule:
-    - cron: '0 * * * *'      # every hour at minute 0 UTC
-    - cron: '*/10 * * * *'   # every 10 minutes
+    - cron: '0 2 * * *'  # every 2hrs
   workflow_dispatch:
 
 jobs:

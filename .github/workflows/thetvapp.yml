@@ -2,7 +2,7 @@ name: Update TheTVApp Playlist
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Every 30 minutes
+    - cron: '0 2 * * *'  # every 2hrs
   workflow_dispatch:        # Manual run from GitHub UI
 
 jobs:

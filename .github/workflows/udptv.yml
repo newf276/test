@@ -2,7 +2,7 @@ name: Update UDPTV Playlist
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Every 5 minutes
+    - cron: '0 2 * * *'  # every 2hrs
   workflow_dispatch:        # Manual trigger support
 
 jobs:
